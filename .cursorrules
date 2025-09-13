@@ -1,0 +1,248 @@
+# Local Business Info Scraper - Cursor IDE Rules
+
+## Project Overview
+This is a comprehensive Google Maps scraper for local business data collection and market analysis. The project includes:
+- Google Maps scraping with Selenium
+- Data pipeline for daily updates
+- NLP processing for sentiment analysis
+- PostgreSQL database integration
+- Automated scheduling
+
+## Code Style and Standards
+
+### Python Code Style
+- Follow PEP 8 guidelines strictly
+- Use type hints for all function parameters and return values
+- Use dataclasses for data structures
+- Prefer f-strings over .format() or % formatting
+- Use pathlib.Path for file operations
+- Use logging instead of print statements
+- Use context managers (with statements) for resource management
+
+### Import Organization
+```python
+# Standard library imports
+import os
+import sys
+from pathlib import Path
+from typing import List, Dict, Any, Optional
+
+# Third-party imports
+import pandas as pd
+import numpy as np
+from sqlalchemy import create_engine
+
+# Local imports
+from src.utils.config import Config
+from src.database.models import Business
+```
+
+### Error Handling
+- Always use specific exception types
+- Log errors with appropriate levels (ERROR, WARNING, INFO, DEBUG)
+- Use try-except blocks for external API calls and database operations
+- Provide meaningful error messages
+- Use finally blocks for cleanup operations
+
+### Database Operations
+- Always use database sessions with proper context management
+- Use transactions for related operations
+- Handle SQLAlchemy exceptions appropriately
+- Use connection pooling for better performance
+- Always close database connections
+
+### Scraping Best Practices
+- Implement rate limiting and delays between requests
+- Use user-agent rotation
+- Handle CAPTCHAs and anti-bot measures
+- Implement retry logic with exponential backoff
+- Respect robots.txt and terms of service
+- Use headless browsing for better performance
+
+### NLP Processing
+- Preprocess text before analysis
+- Handle different languages and encodings
+- Use appropriate tokenization methods
+- Implement sentiment analysis with confidence scores
+- Extract meaningful keywords and topics
+- Handle edge cases (empty text, special characters)
+
+## File Organization
+
+### Directory Structure
+```
+src/
+├── scraper/          # Web scraping modules
+├── pipeline/         # Data pipeline and scheduling
+├── nlp/             # Natural language processing
+├── database/        # Database models and connections
+└── utils/           # Utility functions and configuration
+```
+
+### Naming Conventions
+- Use snake_case for file and function names
+- Use PascalCase for class names
+- Use UPPER_CASE for constants
+- Use descriptive names that indicate purpose
+- Prefix private methods with underscore
+
+### Documentation
+- Write docstrings for all classes and functions
+- Use Google-style docstrings
+- Include type hints in docstrings
+- Document complex algorithms and business logic
+- Keep README.md updated with usage examples
+
+## Testing Requirements
+
+### Test Coverage
+- Write unit tests for all utility functions
+- Test database operations with test database
+- Mock external API calls in tests
+- Test error handling scenarios
+- Use pytest for testing framework
+
+### Test Organization
+```
+tests/
+├── unit/            # Unit tests
+├── integration/     # Integration tests
+└── fixtures/        # Test data and fixtures
+```
+
+## Configuration Management
+
+### Environment Variables
+- Use .env files for sensitive data
+- Provide .env.example with dummy values
+- Use config classes for centralized configuration
+- Validate configuration on startup
+- Use different configs for different environments
+
+### Logging
+- Use structured logging with appropriate levels
+- Log to both file and console
+- Include timestamps and context information
+- Use different log levels for different components
+- Rotate log files to prevent disk space issues
+
+## Security Considerations
+
+### Data Protection
+- Never commit sensitive data to version control
+- Use environment variables for API keys and passwords
+- Encrypt sensitive data in database
+- Implement proper access controls
+- Regular security audits
+
+### Web Scraping Ethics
+- Respect robots.txt files
+- Implement reasonable delays between requests
+- Don't overload target servers
+- Follow terms of service
+- Use legitimate user agents
+
+## Performance Optimization
+
+### Database Performance
+- Use database indexes appropriately
+- Implement connection pooling
+- Use batch operations for bulk inserts
+- Monitor query performance
+- Use database migrations for schema changes
+
+### Scraping Performance
+- Use concurrent processing where appropriate
+- Implement caching for repeated requests
+- Use efficient selectors for web elements
+- Monitor memory usage
+- Implement proper cleanup
+
+### NLP Performance
+- Cache processed text results
+- Use efficient data structures
+- Implement batch processing
+- Monitor memory usage for large datasets
+- Use appropriate algorithms for text processing
+
+## Deployment and Operations
+
+### Environment Setup
+- Use virtual environments
+- Pin dependency versions
+- Provide setup scripts
+- Document installation process
+- Use Docker for containerization
+
+### Monitoring
+- Implement health checks
+- Monitor scraping success rates
+- Track database performance
+- Monitor error rates
+- Set up alerts for critical issues
+
+### Data Management
+- Implement data retention policies
+- Regular database backups
+- Data validation and cleaning
+- Monitor data quality
+- Implement data archiving
+
+## Code Review Guidelines
+
+### Review Checklist
+- [ ] Code follows PEP 8 style guidelines
+- [ ] Type hints are present and correct
+- [ ] Error handling is comprehensive
+- [ ] Logging is appropriate
+- [ ] Database operations are safe
+- [ ] Scraping respects rate limits
+- [ ] NLP processing handles edge cases
+- [ ] Tests cover new functionality
+- [ ] Documentation is updated
+- [ ] Security considerations are addressed
+
+### Common Issues to Avoid
+- Don't use global variables
+- Don't ignore exceptions
+- Don't use hardcoded values
+- Don't commit sensitive data
+- Don't use deprecated libraries
+- Don't skip input validation
+- Don't ignore logging
+- Don't use synchronous operations for I/O
+- Don't forget to close resources
+- Don't use inefficient algorithms
+
+## Best Practices Summary
+
+1. **Code Quality**: Write clean, readable, and maintainable code
+2. **Error Handling**: Implement comprehensive error handling and logging
+3. **Testing**: Write thorough tests for all functionality
+4. **Documentation**: Keep documentation up to date
+5. **Security**: Follow security best practices
+6. **Performance**: Optimize for performance and scalability
+7. **Monitoring**: Implement proper monitoring and alerting
+8. **Maintenance**: Plan for long-term maintenance and updates
+
+## Tools and Libraries
+
+### Required Tools
+- Python 3.8+
+- PostgreSQL 12+
+- Chrome/Chromium browser
+- Git for version control
+- pytest for testing
+- black for code formatting
+- flake8 for linting
+- mypy for type checking
+
+### Key Libraries
+- selenium: Web scraping
+- beautifulsoup4: HTML parsing
+- pandas: Data manipulation
+- sqlalchemy: Database ORM
+- nltk: Natural language processing
+- scikit-learn: Machine learning
+- schedule: Task scheduling
+- requests: HTTP requests

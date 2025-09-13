@@ -1,0 +1,41 @@
+database:
+  host: localhost
+  port: 5432
+  name: business_scraper
+  user: postgres
+  password: password
+
+selenium:
+  headless: true
+  wait_time: 10
+  chrome_options:
+    - --no-sandbox
+    - --disable-dev-shm-usage
+    - --disable-gpu
+    - --window-size=1920,1080
+
+scraping:
+  max_results_per_search: 100
+  delay_between_requests: 2
+  max_retries: 3
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+
+nlp:
+  sentiment_model: vader
+  nltk_data_path: "./data/nltk_data"
+  max_review_length: 1000
+
+pipeline:
+  update_frequency: daily
+  batch_size: 50
+  enable_scheduling: true
+
+logging:
+  level: INFO
+  file: "./logs/scraper.log"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+google_maps:
+  api_key: ""
+  search_radius: 5000  # meters
+  language: "en"
