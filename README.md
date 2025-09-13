@@ -118,8 +118,10 @@ This project provides a complete solution for restaurant market research in Sant
 *Market segmentation by price ranges with performance metrics*
 
 #### 5. Word Cloud - Spanish Reviews
-![Word Cloud](images/word_cloud.png)
+![Word Cloud](images/word_cloud_github.png)
 *Most frequent words in Spanish customer reviews*
+
+> **🔗 Direct Link**: [View Full Resolution Word Cloud](https://github.com/FCornielle/santo-domingo-restaurant-reviews-nlp/raw/main/images/word_cloud.png)
 
 > **📝 Note**: Images are automatically generated when you run the analysis. The visualizations show comprehensive market analysis of 500 restaurants in Santo Domingo.
 
@@ -140,6 +142,23 @@ jupyter nbconvert --to notebook --execute notebooks/analysis.ipynb --output anal
 1. Open `notebooks/analysis.ipynb` in Jupyter
 2. Click "Run All" or execute cells sequentially
 3. Images will be saved to `images/` directory
+
+### 🛠️ Troubleshooting Image Display
+
+If images don't appear in the README:
+
+1. **Hard refresh** your browser (Ctrl+F5 or Cmd+Shift+R)
+2. **Clear browser cache** for GitHub
+3. **Wait 5-10 minutes** for GitHub's CDN to update
+4. **Use direct links** provided below each image
+5. **Check file paths** are correct in the repository
+
+#### Direct Image Links
+- [Restaurant Performance](https://github.com/FCornielle/santo-domingo-restaurant-reviews-nlp/raw/main/images/restaurant_performance.png)
+- [Sentiment Analysis](https://github.com/FCornielle/santo-domingo-restaurant-reviews-nlp/raw/main/images/sentiment_analysis.png)
+- [Cuisine Distribution](https://github.com/FCornielle/santo-domingo-restaurant-reviews-nlp/raw/main/images/cuisine_distribution.png)
+- [Price Analysis](https://github.com/FCornielle/santo-domingo-restaurant-reviews-nlp/raw/main/images/price_analysis.png)
+- [Word Cloud](https://github.com/FCornielle/santo-domingo-restaurant-reviews-nlp/raw/main/images/word_cloud_github.png)
 4. Images will appear in the README after generation
 
 ### 📊 Live Analysis Dashboard
