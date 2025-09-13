@@ -185,8 +185,8 @@ The notebook provides an interactive dashboard with:
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/local-business-info-scraper.git
-cd local-business-info-scraper
+git clone https://github.com/FCornielle/santo-domingo-restaurant-reviews-nlp.git
+cd santo-domingo-restaurant-reviews-nlp
 ```
 
 2. **Create virtual environment**
@@ -213,7 +213,7 @@ jupyter notebook notebooks/analysis.ipynb
 ## 📁 Project Structure
 
 ```
-local-business-info-scraper/
+santo-domingo-restaurant-reviews-nlp/
 ├── 📊 notebooks/
 │   └── analysis.ipynb              # Main analysis notebook
 ├── 🗃️ data/
@@ -364,11 +364,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **⭐ If you found this project helpful, please give it a star!**
 
-[![GitHub stars](https://img.shields.io/github/stars/FCornielle/local-business-info-scraper?style=social&label=Star)](https://github.com/FCornielle/local-business-info-scraper)
-[![GitHub forks](https://img.shields.io/github/forks/FCornielle/local-business-info-scraper?style=social&label=Fork)](https://github.com/FCornielle/local-business-info-scraper/fork)
-[![GitHub watchers](https://img.shields.io/github/watchers/FCornielle/local-business-info-scraper?style=social&label=Watch)](https://github.com/FCornielle/local-business-info-scraper)
-
-> **Note:** GitHub badges will work once the repository is created and published on GitHub.
+[![GitHub stars](https://img.shields.io/github/stars/FCornielle/santo-domingo-restaurant-reviews-nlp?style=social&label=Star)](https://github.com/FCornielle/santo-domingo-restaurant-reviews-nlp)
+[![GitHub forks](https://img.shields.io/github/forks/FCornielle/santo-domingo-restaurant-reviews-nlp?style=social&label=Fork)](https://github.com/FCornielle/santo-domingo-restaurant-reviews-nlp/fork)
+[![GitHub watchers](https://img.shields.io/github/watchers/FCornielle/santo-domingo-restaurant-reviews-nlp?style=social&label=Watch)](https://github.com/FCornielle/santo-domingo-restaurant-reviews-nlp)
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
