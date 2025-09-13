@@ -44,11 +44,15 @@ class ComprehensiveRestaurantScraper:
             {'name': 'Ensanche Naco', 'lat_range': (18.43, 18.44), 'lng_range': (-69.97, -69.96), 'count': 25},
             {'name': 'Mirador Norte', 'lat_range': (18.52, 18.53), 'lng_range': (-69.88, -69.87), 'count': 20},
             {'name': 'Mirador Sur', 'lat_range': (18.42, 18.43), 'lng_range': (-69.98, -69.97), 'count': 20},
+            {'name': 'Malecón', 'lat_range': (18.46, 18.47), 'lng_range': (-69.92, -69.91), 'count': 18},
             {'name': 'Villa Mella', 'lat_range': (18.54, 18.55), 'lng_range': (-69.87, -69.86), 'count': 15},
-            {'name': 'Santo Domingo Este', 'lat_range': (18.48, 18.49), 'lng_range': (-69.85, -69.84), 'count': 15},
-            {'name': 'Santo Domingo Norte', 'lat_range': (18.55, 18.56), 'lng_range': (-69.86, -69.85), 'count': 10},
-            {'name': 'Santo Domingo Oeste', 'lat_range': (18.41, 18.42), 'lng_range': (-69.99, -69.98), 'count': 10},
-            {'name': 'Boca Chica', 'lat_range': (18.35, 18.36), 'lng_range': (-69.60, -69.59), 'count': 20}
+            {'name': 'Los Alcarrizos', 'lat_range': (18.45, 18.46), 'lng_range': (-70.00, -69.99), 'count': 12},
+            {'name': 'Ensanche La Fe', 'lat_range': (18.48, 18.49), 'lng_range': (-69.90, -69.89), 'count': 10},
+            {'name': 'Villa Duarte', 'lat_range': (18.49, 18.50), 'lng_range': (-69.85, -69.84), 'count': 8},
+            {'name': 'Los Ríos', 'lat_range': (18.50, 18.51), 'lng_range': (-69.88, -69.87), 'count': 6},
+            {'name': 'Villa Juana', 'lat_range': (18.47, 18.48), 'lng_range': (-69.90, -69.89), 'count': 5},
+            {'name': 'Ensanche Luperón', 'lat_range': (18.46, 18.47), 'lng_range': (-69.91, -69.90), 'count': 4},
+            {'name': 'Ensanche Espaillat', 'lat_range': (18.48, 18.49), 'lng_range': (-69.89, -69.88), 'count': 2}
         ]
         
         # Define cuisine types and their characteristics
@@ -418,7 +422,12 @@ class ComprehensiveRestaurantScraper:
             ('Gazcue', 10),         # 10 for Gazcue
             ('Villa Mella', 8),     # 8 for Villa Mella
             ('Los Alcarrizos', 5),  # 5 for Los Alcarrizos
-            ('Santo Domingo Este', 7)  # 7 for Santo Domingo Este
+            ('Ensanche La Fe', 7),  # 7 for Ensanche La Fe
+            ('Villa Duarte', 5),    # 5 for Villa Duarte
+            ('Los Ríos', 3),        # 3 for Los Ríos
+            ('Villa Juana', 2),     # 2 for Villa Juana
+            ('Ensanche Luperón', 2), # 2 for Ensanche Luperón
+            ('Ensanche Espaillat', 1) # 1 for Ensanche Espaillat
         ]
         
         cuisine_types = [

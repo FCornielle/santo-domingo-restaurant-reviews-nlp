@@ -88,11 +88,13 @@ This project provides a complete solution for restaurant market research in Sant
 - **Ensanche Naco**: 25 restaurants
 - **Mirador Norte**: 20 restaurants
 - **Mirador Sur**: 20 restaurants
+- **Malecón**: 18 restaurants
 - **Villa Mella**: 15 restaurants
-- **Santo Domingo Este**: 15 restaurants
-- **Santo Domingo Norte**: 10 restaurants
-- **Santo Domingo Oeste**: 10 restaurants
-- **Boca Chica**: 20 restaurants
+- **Los Alcarrizos**: 12 restaurants
+- **Ensanche La Fe**: 10 restaurants
+- **Villa Duarte**: 8 restaurants
+- **Los Ríos**: 6 restaurants
+- **Villa Juana**: 1 restaurant
 
 ## 📊 Analysis Visualizations
 
@@ -111,7 +113,7 @@ This project provides a complete solution for restaurant market research in Sant
 
 #### 3. Neighborhood Analysis
 ![Neighborhood Analysis](images/neighborhood_analysis.png)
-*Restaurant density and performance by neighborhood*
+*Restaurant density across authentic Santo Domingo neighborhoods*
 
 #### 4. Price Range Analysis
 ![Price Analysis](images/price_analysis.png)
