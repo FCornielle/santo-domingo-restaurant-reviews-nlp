@@ -2,6 +2,28 @@
 
 A comprehensive restaurant data scraper and market analysis tool for Santo Domingo, Dominican Republic. This project collects, analyzes, and visualizes restaurant data with advanced Spanish NLP sentiment analysis.
 
+## 📑 Table of Contents
+
+- [📊 Project Overview](#-project-overview)
+- [🎯 Key Results](#-key-results)
+- [🏆 Top Performing Restaurants](#-top-performing-restaurants)
+- [🍽️ Cuisine Distribution](#️-cuisine-distribution)
+- [💰 Price Range Distribution](#-price-range-distribution)
+- [🏘️ Neighborhood Coverage](#️-neighborhood-coverage)
+- [📊 Analysis Visualizations](#-analysis-visualizations)
+- [🚀 Quick Start](#-quick-start)
+- [📁 Project Structure](#-project-structure)
+- [🔍 Analysis Features](#-analysis-features)
+- [🎯 Use Cases](#-use-cases)
+- [📊 Sample Analysis Results](#-sample-analysis-results)
+- [🔧 Technical Features](#-technical-features)
+- [📈 Performance Metrics](#-performance-metrics)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+- [🙏 Acknowledgments](#-acknowledgments)
+- [📞 Contact](#-contact)
+- [🔗 Related Projects](#-related-projects)
+
 ## 📊 Project Overview
 
 This project provides a complete solution for restaurant market research in Santo Domingo, featuring:
@@ -71,6 +93,77 @@ This project provides a complete solution for restaurant market research in Sant
 - **Santo Domingo Norte**: 10 restaurants
 - **Santo Domingo Oeste**: 10 restaurants
 - **Boca Chica**: 20 restaurants
+
+## 📊 Analysis Visualizations
+
+### 🎯 Interactive Analysis Notebook
+**👉 [Open Analysis Notebook](notebooks/analysis.ipynb)** - Complete interactive analysis with 500 restaurants
+
+### 📈 Key Visualizations Generated
+
+#### 1. Restaurant Performance Analysis
+![Restaurant Performance](images/restaurant_performance.png)
+*Analysis of restaurant ratings, sentiment scores, and review counts*
+
+#### 2. Sentiment Analysis Distribution
+![Sentiment Analysis](images/sentiment_analysis.png)
+*Spanish NLP sentiment analysis of 4,955+ reviews*
+
+#### 3. Word Frequency Analysis
+![Word Frequency](images/word_frequency_analysis.png)
+*Most frequent words in Spanish customer reviews*
+
+> **📝 Note**: Images are automatically generated when you run the analysis notebook. If images don't appear, please run the notebook first to generate them.
+
+#### 4. Cuisine Type Distribution
+![Cuisine Distribution](images/cuisine_distribution.png)
+*Market share analysis across 15 cuisine types*
+
+#### 5. Neighborhood Performance
+![Neighborhood Analysis](images/neighborhood_analysis.png)
+*Restaurant density and performance by neighborhood*
+
+#### 6. Price Range Analysis
+![Price Analysis](images/price_analysis.png)
+*Market segmentation by price ranges*
+
+#### 7. Word Cloud - Spanish Reviews
+![Word Cloud](images/word_cloud.png)
+*Most frequent words in Spanish customer reviews*
+
+#### 8. Sentiment by Cuisine Type
+![Sentiment by Cuisine](images/sentiment_by_cuisine.png)
+*Customer satisfaction analysis by cuisine type*
+
+#### 9. Review Count vs Sentiment
+![Review vs Sentiment](images/review_sentiment_correlation.png)
+*Correlation between review volume and sentiment scores*
+
+### 🔍 How to Generate Visualizations
+
+1. **Open the notebook**: `notebooks/analysis.ipynb`
+2. **Run all cells** to generate visualizations
+3. **Images are automatically saved** to `images/` directory
+4. **Export results** to `data/processed/` directory
+
+#### Quick Image Generation
+```bash
+# Run the notebook programmatically to generate images
+jupyter nbconvert --to notebook --execute notebooks/analysis.ipynb --output analysis_executed.ipynb
+```
+
+#### Manual Image Generation
+1. Open `notebooks/analysis.ipynb` in Jupyter
+2. Click "Run All" or execute cells sequentially
+3. Images will be saved to `images/` directory
+4. Images will appear in the README after generation
+
+### 📊 Live Analysis Dashboard
+The notebook provides an interactive dashboard with:
+- **Real-time data processing** of 500 restaurants
+- **Dynamic filtering** by neighborhood, cuisine, price range
+- **Interactive charts** with hover details
+- **Export capabilities** for reports and presentations
 
 ## 🚀 Quick Start
 
@@ -247,23 +340,23 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-- **Project Maintainer**: [Your Name]
-- **Email**: [your.email@example.com]
-- **GitHub**: [@yourusername](https://github.com/yourusername)
+- **Project Maintainer**: Fernando Cornielle
+- **Email**: [fernandocornielle@gmail.com](mailto:fernandocornielle@gmail.com)
+- **GitHub**: [@FCornielle](https://github.com/FCornielle)
 
 ## 🔗 Related Projects
 
-- [Restaurant Sentiment Analysis](https://github.com/yourusername/restaurant-sentiment)
-- [Dominican Market Research](https://github.com/yourusername/dominican-markets)
-- [NLP Spanish Tools](https://github.com/yourusername/spanish-nlp)
+- [Energy Generation Prediction Dashboard](https://github.com/FCornielle/energy-generation-prediction-dashboard) - Power BI and Azure dashboard
+- [MLOps Course](https://github.com/FCornielle/mlops_course) - Machine Learning Operations course
+- [MLOps Learn](https://github.com/FCornielle/mslearn-mlops) - Convert Jupyter notebooks to production scripts
 
 ---
 
 **⭐ If you found this project helpful, please give it a star!**
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/local-business-info-scraper.svg?style=social&label=Star)](https://github.com/yourusername/local-business-info-scraper)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/local-business-info-scraper.svg?style=social&label=Fork)](https://github.com/yourusername/local-business-info-scraper/fork)
-[![GitHub watchers](https://img.shields.io/github/watchers/yourusername/local-business-info-scraper.svg?style=social&label=Watch)](https://github.com/yourusername/local-business-info-scraper)
+[![GitHub stars](https://img.shields.io/github/stars/FCornielle/local-business-info-scraper.svg?style=social&label=Star)](https://github.com/FCornielle/local-business-info-scraper)
+[![GitHub forks](https://img.shields.io/github/forks/FCornielle/local-business-info-scraper.svg?style=social&label=Fork)](https://github.com/FCornielle/local-business-info-scraper/fork)
+[![GitHub watchers](https://img.shields.io/github/watchers/FCornielle/local-business-info-scraper.svg?style=social&label=Watch)](https://github.com/FCornielle/local-business-info-scraper)
 
 ---
 
