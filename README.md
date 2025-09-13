@@ -103,41 +103,25 @@ This project provides a complete solution for restaurant market research in Sant
 
 #### 1. Restaurant Performance Analysis
 ![Restaurant Performance](images/restaurant_performance.png)
-*Analysis of restaurant ratings, sentiment scores, and review counts*
+*Analysis of restaurant ratings, review counts, and performance metrics*
 
-#### 2. Sentiment Analysis Distribution
-![Sentiment Analysis](images/sentiment_analysis.png)
-*Spanish NLP sentiment analysis of 4,955+ reviews*
-
-#### 3. Word Frequency Analysis
-![Word Frequency](images/word_frequency_analysis.png)
-*Most frequent words in Spanish customer reviews*
-
-> **📝 Note**: Images are automatically generated when you run the analysis notebook. If images don't appear, please run the notebook first to generate them.
-
-#### 4. Cuisine Type Distribution
+#### 2. Cuisine Type Distribution
 ![Cuisine Distribution](images/cuisine_distribution.png)
-*Market share analysis across 15 cuisine types*
+*Market share analysis across 15 cuisine types with average ratings*
 
-#### 5. Neighborhood Performance
+#### 3. Neighborhood Analysis
 ![Neighborhood Analysis](images/neighborhood_analysis.png)
 *Restaurant density and performance by neighborhood*
 
-#### 6. Price Range Analysis
+#### 4. Price Range Analysis
 ![Price Analysis](images/price_analysis.png)
-*Market segmentation by price ranges*
+*Market segmentation by price ranges with performance metrics*
 
-#### 7. Word Cloud - Spanish Reviews
+#### 5. Word Cloud - Spanish Reviews
 ![Word Cloud](images/word_cloud.png)
 *Most frequent words in Spanish customer reviews*
 
-#### 8. Sentiment by Cuisine Type
-![Sentiment by Cuisine](images/sentiment_by_cuisine.png)
-*Customer satisfaction analysis by cuisine type*
-
-#### 9. Review Count vs Sentiment
-![Review vs Sentiment](images/review_sentiment_correlation.png)
-*Correlation between review volume and sentiment scores*
+> **📝 Note**: Images are automatically generated when you run the analysis. The visualizations show comprehensive market analysis of 500 restaurants in Santo Domingo.
 
 ### 🔍 How to Generate Visualizations
 
