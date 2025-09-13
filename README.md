@@ -1,5 +1,10 @@
 # 🍽️ Local Business Info Scraper - Santo Domingo
 
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Code Style](https://img.shields.io/badge/Code%20Style-PEP%208-orange.svg)](https://pep8.org)
+[![Data Analysis](https://img.shields.io/badge/Analysis-500%20Restaurants-red.svg)](#-analysis-visualizations)
+
 A comprehensive restaurant data scraper and market analysis tool for Santo Domingo, Dominican Republic. This project collects, analyzes, and visualizes restaurant data with advanced Spanish NLP sentiment analysis.
 
 ## 📑 Table of Contents
@@ -359,9 +364,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **⭐ If you found this project helpful, please give it a star!**
 
-[![GitHub stars](https://img.shields.io/github/stars/FCornielle/local-business-info-scraper.svg?style=social&label=Star)](https://github.com/FCornielle/local-business-info-scraper)
-[![GitHub forks](https://img.shields.io/github/forks/FCornielle/local-business-info-scraper.svg?style=social&label=Fork)](https://github.com/FCornielle/local-business-info-scraper/fork)
-[![GitHub watchers](https://img.shields.io/github/watchers/FCornielle/local-business-info-scraper.svg?style=social&label=Watch)](https://github.com/FCornielle/local-business-info-scraper)
+[![GitHub stars](https://img.shields.io/github/stars/FCornielle/local-business-info-scraper?style=social&label=Star)](https://github.com/FCornielle/local-business-info-scraper)
+[![GitHub forks](https://img.shields.io/github/forks/FCornielle/local-business-info-scraper?style=social&label=Fork)](https://github.com/FCornielle/local-business-info-scraper/fork)
+[![GitHub watchers](https://img.shields.io/github/watchers/FCornielle/local-business-info-scraper?style=social&label=Watch)](https://github.com/FCornielle/local-business-info-scraper)
+
+> **Note:** GitHub badges will work once the repository is created and published on GitHub.
+
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Code Style](https://img.shields.io/badge/Code%20Style-PEP%208-orange.svg)](https://pep8.org)
 
 ---
 
